@@ -1,14 +1,44 @@
-[
+{
+  "type": "FeatureCollection",
+  "features": [
   {
-    "type": "Feature",
-    "properties": {
-        "name": "Coors Field",
-        "amenity": "Baseball Stadium",
-        "popupContent": "This is where the Rockies play!"
+      "type": "Feature",
+      "properties": {
+          "Incident Description": "Drunk Walking",
+          "Date": "11/1/2014",
+          "Result": "Broken jaw, surgery",
+          "Lesson Learned": "False"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-77.0345573, 38.9096506]
+      }
     },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-104.99404, 39.75621]
+    {
+      "type": "Feature",
+      "properties": {
+          "Incident Description": "Drunk Biking",
+          "Date": "6/23/2014",
+          "Result": "Broken collarbone",
+          "Lesson Learned": "False"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-77.0434473, 38.91112210000001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Incident Description": "Loss of posessions (drinking with Joe)",
+          "Date": "8/15/2012",
+          "Result": "Loss of iPhone, Ray Bans, Wallet, Brand New MacBook Pro",
+          "Lesson Learned": "False"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-77.03849029999999, 38.911116]
+      }
     }
-  }
-]
+  ]
+}
