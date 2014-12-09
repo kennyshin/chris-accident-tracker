@@ -8,7 +8,6 @@
           "Date": "5/1/2013",
           "Result": "Facial lacerations",
           "Lesson Learned": "False"
-          "image" : "https://s3.amazonaws.com/fundrise-content/accident-tracker/IMG_0056.JPG"
       },
       "geometry": {
           "type": "Point",
@@ -47,7 +46,10 @@
           "Incident Description": "Drunk Biking",
           "Date": "6/23/2014",
           "Result": "Broken collarbone",
-          "Lesson Learned": "False"
+          "Lesson Learned": "False",
+          'images': [
+            ['https://s3.amazonaws.com/fundrise-content/accident-tracker/IMG_0056.JPG', 'Looking Good!']
+          ]
       },
       "geometry": {
           "type": "Point",
