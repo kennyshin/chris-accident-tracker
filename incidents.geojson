@@ -8,6 +8,7 @@
           "Date": "5/1/2013",
           "Result": "Facial lacerations",
           "Lesson Learned": "False"
+          "Image" : "https://s3.amazonaws.com/fundrise-content/accident-tracker/IMG_0056.JPG"
       },
       "geometry": {
           "type": "Point",
