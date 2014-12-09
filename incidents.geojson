@@ -46,10 +46,7 @@
           "Incident Description": "Drunk Biking",
           "Date": "6/23/2014",
           "Result": "Broken collarbone",
-          "Lesson Learned": "False",
-          'images': [
-            ['https://s3.amazonaws.com/fundrise-content/accident-tracker/IMG_0056.JPG', 'Looking Good!']
-          ]
+          "Lesson Learned": "False"
       },
       "geometry": {
           "type": "Point",
