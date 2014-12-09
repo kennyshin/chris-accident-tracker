@@ -1,7 +1,20 @@
 {
   "type": "FeatureCollection",
   "features": [
-  {
+    {
+      "type": "Feature",
+      "properties": {
+          "Incident Description": "Bike Accident (Chris biking on ice)",
+          "Date": "2/1/2013",
+          "Result": "Totaled bike, bumps and bruises",
+          "Lesson Learned": "False"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-77.03687069999999, 38.9071923]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
           "Incident Description": "Drunk Walking",
