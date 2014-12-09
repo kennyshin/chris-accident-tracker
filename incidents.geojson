@@ -4,6 +4,19 @@
     {
       "type": "Feature",
       "properties": {
+          "Incident Description": "Bike Accident (Holding two bottles of wine (one in each hand) and failing to round corner successfully)",
+          "Date": "5/1/2013",
+          "Result": "Facial lacerations",
+          "Lesson Learned": "False"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-77.077037, 38.920536]
+      }
+    },  
+    {
+      "type": "Feature",
+      "properties": {
           "Incident Description": "Bike Accident (Chris biking on ice)",
           "Date": "2/1/2013",
           "Result": "Totaled bike, bumps and bruises",
