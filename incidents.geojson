@@ -4,6 +4,19 @@
     {
       "type": "Feature",
       "properties": {
+          "Incident Description": "Unaccustomed to non-sandal footwear, Chris fell down an entire flight of stairs",
+          "Date": "3/1/2011",
+          "Result": "Bruising all over body, also emboldened resolve to eschew society's expectation of non-sandal footwear",
+          "Lesson Learned": "False"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-77.04391629999999, 38.910867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
           "Incident Description": "Bike Accident (Holding two bottles of wine (one in each hand) and failing to round corner successfully)",
           "Date": "5/1/2013",
           "Result": "Facial lacerations",
