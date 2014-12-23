@@ -4,6 +4,19 @@
     {
       "type": "Feature",
       "properties": {
+          "Incident Description": "Fall down hill while taking a shortcut through Rock Creek Park (in flip flops) at 4am to avoid paying for taxi",
+          "Date": "7/1/2012 (approximate)",
+          "Result": "Bumps and bruises ",
+          "Lesson Learned": "False"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [-77.0475271, 38.9627553]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
           "Incident Description": "Bike Accident (Holding two bottles of wine (one in each hand) and failing to round corner successfully)",
           "Date": "5/1/2013",
           "Result": "Facial lacerations",
