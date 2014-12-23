@@ -4,7 +4,7 @@ $(function() {
 	var map = L.mapbox.map('accident-map', 'examples.map-20v6611k').setView([38.915312, -77.056278], 14);
 	var accidentLayer = L.mapbox.featureLayer().addTo(map);
 	map.scrollWheelZoom.disable();
-	
+
 	function load() {
 		$.ajax({
 			headers: {
@@ -32,9 +32,13 @@ $(function() {
 			'<p><strong>Lesson Learned: </strong> ' + feature.properties["Lesson Learned"] + '</p>';
 
 		marker.bindPopup(popupContent,{
-			closeButton: false,
+			closeButton: true,
 			minWidth: 320
 		});
+
+		marker.setIcon(L.mapbox.marker.icon({
+			'marker-color': '#C5283C'
+		}));
 	});
 
 	$(load);
