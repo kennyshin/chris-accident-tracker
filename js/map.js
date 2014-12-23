@@ -3,22 +3,23 @@ $(function() {
 	var url = 'https://api.github.com/repos/kennyshin/chris-accident-tracker/contents/incidents.geojson';
 	var map = L.mapbox.map('accident-map', 'examples.map-20v6611k').setView([38.915312, -77.056278], 14);
 	var accidentLayer = L.mapbox.featureLayer().addTo(map);
-
+	map.scrollWheelZoom.disable();
+	
 	function load() {
 		$.ajax({
-		    headers: {
-		      'Accept': 'application/vnd.github.v3.raw'
-		    },
-		    xhrFields: {
-		      withCredentials: false
-		    },
-		    dataType: 'json',
-		    url: url,
-		    success: function(geojson) {
-		    	console.log(geojson);
-		    	accidentLayer.setGeoJSON(geojson);
-		    }
-		  });
+			headers: {
+				'Accept': 'application/vnd.github.v3.raw'
+			},
+			xhrFields: {
+				withCredentials: false
+			},
+			dataType: 'json',
+			url: url,
+			success: function(geojson) {
+				console.log(geojson);
+				accidentLayer.setGeoJSON(geojson);
+			}
+		});
 	}
 
 	accidentLayer.on('layeradd', function(e) {
